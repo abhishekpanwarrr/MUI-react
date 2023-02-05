@@ -8,7 +8,7 @@ import RightBar from './Components/RightBar'
 import SideBar from './Components/SideBar'
 
 const App = () => {
-  const [mode,setMode] = useState("dark")
+  const [mode,setMode] = useState("light")
   const darkTheme = createTheme({
     palette:{
       mode:mode
